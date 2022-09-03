@@ -1,0 +1,97 @@
+.article {
+  color: #fff;
+}
+
+.article h2 {
+  margin: 0px 0px 10px 10px;
+}
+
+/* Web Projects: */
+
+.webWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.webProject {
+  align-items: center;
+  border-radius: 10px;
+  border: solid 1px #fff;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  padding: 10px 00px 10px 0px;
+  margin: 10px 0px 10px 0px;
+  box-shadow: 0 0 3px 1px #fff;
+}
+
+.imgWrapper {
+  width: 80%;
+  margin-left: 10px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.imgWrapper img {
+  border-radius: 10px;
+}
+
+.txtWrapper {
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+}
+
+.txtWrapper a {
+  margin-right: 20px;
+}
+
+.txtWrapper a:hover {
+  text-decoration: underline;
+}
+
+/* CodePen projects: */
+
+.codepenProjectsWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.codepenProject {
+  width: 25%;
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+.codepenProject a {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.codepenProject a img {
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .webWrapper {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .webProject {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .webProject:hover,
+  .codepenProject:hover {
+    outline: none;
+  }
+}

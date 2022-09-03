@@ -1,0 +1,14 @@
+.wrapper {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  padding-top: 70px;
+  font-size: large;
+}
+
+.wrapper p {
+  margin: 0px 30px 0px 30px;
+}
