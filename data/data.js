@@ -73,6 +73,14 @@ export const skills = [
     img: "/skills/nextjs.jpg",
   },
   {
+    id: "materialui",
+    img: "/skills/material-ui-logo.png",
+  },
+  {
+    id: "tailwind",
+    img: "/skills/tailwind-logo.png",
+  },
+  {
     id: "nodejs",
     img: "/skills/node-js-logo.png",
   },
