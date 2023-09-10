@@ -11,10 +11,8 @@ export default function Custom404() {
     <div className={styles.wrapper}>
       <Navbar />
       <Head>
-        <Head>
           <title>Ålexander Yurchenko: Page not found!</title>
           <link rel="icon" href="/iconTarot.png" />
-        </Head>
       </Head>
       <Image
         src="/404.jpg"

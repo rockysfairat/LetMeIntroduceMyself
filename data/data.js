@@ -123,13 +123,6 @@ export const contacts = [
     url: "https://www.linkedin.com/in/a-yurchenko/",
     txt: "LinkedIn",
   },
-  {
-    id: "twitter",
-    img: "/contacts/twitter_logo.png",
-    alt: "Twitter logo",
-    url: "https://twitter.com/closed_lemon/",
-    txt: "Twitter",
-  },
 ];
 
 export const projects = [
