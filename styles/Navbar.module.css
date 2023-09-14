@@ -6,7 +6,7 @@
   padding-top: 15px;
   height: 40px;
   display: flex;
-  width: 90%;
+  width: 100%;
 }
 
 .ul {
@@ -16,10 +16,6 @@
   align-items: center;
   list-style-type: none;
   width: 100%;
-}
-
-.li {
-  width: 20%;
 }
 
 .ul > li:hover {
