@@ -27,7 +27,12 @@ export default function Home() {
         <link rel="icon" href="/iconTarot.png" />
       </Head>
       <header className={styles.header}>
-        <Image src="/pick-a-card.png" width="700" height="160" />
+        <Image
+          src="/pick-a-card.png"
+          width="700"
+          height="160"
+          alt="Pic a card"
+        />
       </header>
       <main className={styles.main}>
         <ul className={styles.ul}>

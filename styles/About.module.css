@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas: ". img txt txt";
-  padding-top: 70px;
+  padding: 70px 20px 0px 20px;
   place-items: stretch;
 }
 
@@ -52,6 +52,7 @@
 
 .txt p {
   margin: 0px 0px 20px 0px;
+  text-align: justify;
 }
 
 .txt span {
@@ -60,7 +61,7 @@
   margin-bottom: 5px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .article {
     grid-template-areas: "img txt txt txt";
   }

@@ -38,17 +38,21 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
-  .main {
-    padding: 5px 5px 5px 5px;
-  }
-  .ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+.ul > li:nth-child(2n + 1) {
+  display: flex;
+  justify-content: end;
 }
 
-@media screen and (max-width: 1480px) {
+.ul > li:nth-child(2n) {
+  display: flex;
+  justify-content: start;
+}
+
+.ul img {
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 950px) {
   .main {
     padding: 5px 5px 5px 5px;
   }

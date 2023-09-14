@@ -11,7 +11,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <ul className={styles.ul}>
         {navItems.map(({ id, img, alt, url }) => (
-          <li key={id}>
+          <li className={styles.li} key={id}>
             <Link href={url}>
               <Image src={img} alt={alt} width={300} height={35} />
             </Link>

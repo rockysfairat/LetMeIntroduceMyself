@@ -4,7 +4,7 @@
 }
 
 .article h2 {
-  margin: 0px 0px 10px 10px;
+  margin-left: 20px;
 }
 
 /* Web Projects: */
@@ -83,6 +83,7 @@
   .webWrapper {
     flex-direction: column;
     padding: 10px;
+    align-items: center;
   }
 
   .webProject {

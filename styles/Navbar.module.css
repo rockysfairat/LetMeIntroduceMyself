@@ -2,10 +2,11 @@
   background: #000;
   position: absolute;
   top: 0px;
+  left: 0px;
   padding-top: 15px;
   height: 40px;
   display: flex;
-  width: 100%;
+  width: 90%;
 }
 
 .ul {
@@ -17,11 +18,15 @@
   width: 100%;
 }
 
+.li {
+  width: 20%;
+}
+
 .ul > li:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
   .nav {
     padding-top: 10px;
   }
