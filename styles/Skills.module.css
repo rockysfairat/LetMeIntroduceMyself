@@ -57,3 +57,9 @@
     transform: translateX(var(--scroll-start));
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .ul li {
+    width: 5rem;
+  }
+}
