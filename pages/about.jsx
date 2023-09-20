@@ -35,6 +35,9 @@ export default function About() {
           </div>
         </div>
         <div className={styles.txt}>
+          <figure className={styles.dog}>
+            <Image src="/deco/dog.png" width="180" height="180" alt="Dog" />
+          </figure>
           <h2>Hello!</h2>
           <p>
             My name is Ålexander and I am a frontend developer with two years
