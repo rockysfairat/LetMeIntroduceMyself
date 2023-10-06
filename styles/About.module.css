@@ -1,8 +1,14 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .article {
   color: #fff;
   display: flex;
   padding: 70px 20px 0px 20px;
   justify-content: space-around;
+  max-width: 1200px;
 }
 
 /* Img part: */

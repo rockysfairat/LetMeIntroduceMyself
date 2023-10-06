@@ -8,7 +8,7 @@ import styles from "../styles/About.module.css";
 
 export default function About() {
   return (
-    <article>
+    <article className={styles.wrapper}>
       <Head>
         <title>Ålexander Yurchenko: about me</title>
         <link rel="icon" href="/iconTarot.png" />
