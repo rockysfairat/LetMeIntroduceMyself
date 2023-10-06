@@ -1,6 +1,7 @@
 .wrapper {
   display: flex;
   justify-content: center;
+  font-family: Quattrocento;
 }
 
 .article {
@@ -52,7 +53,8 @@
 }
 
 .txt h2 {
-  margin: 0px;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .txt p {
@@ -74,7 +76,10 @@
   left: -220px;
   z-index: 10;
   width: fit-content;
-  animation: dogAnimation 4000ms ease-out 1 5000ms;
+}
+
+.dog:hover {
+  animation: dogAnimation ease-out infinite 5000ms;
 }
 
 @keyframes dogAnimation {

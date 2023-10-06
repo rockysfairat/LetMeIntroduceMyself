@@ -66,61 +66,12 @@
   display: flex;
   justify-content: center;
   margin-bottom: 1rem;
+  cursor: pointer;
 }
 
 .open {
   left: 0;
 }
-
-/*.hamburgerMenu {
-   display: none;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: -100vw; 
-  width: 100vw;
-  height: 100%;
-  background-color: #000;
-  transition: left 0.3s ease-in-out;
-}
-
-
-.open {
-  left: 0; 
-}
-
-.menuIcon {
-  cursor: pointer;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  z-index: 100;
-}
-
-.bar {
-  width: 30px;
-  height: 3px;
-  background-color: white;
-  margin: 3px 0;
-}
-
-.menuItems {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.menuItems li {
-  padding: 10px;
-  color: white;
-}
-
-*/
 
 @media screen and (max-width: 1200px) {
   .nav {

@@ -127,6 +127,25 @@ export const contacts = [
 
 export const projects = [
   {
+    id: "julius",
+    category: "web",
+    title: "Julius Rene Leo",
+    rep: "",
+    url: "",
+    img: "/projects/julius.png",
+    alt: "",
+  },
+  {
+    id: "localgym",
+    category: "web",
+    title: "Local Gym",
+    rep: "",
+    url: "",
+    img: "/projects/localGym.png",
+    alt: "",
+  },
+
+  {
     id: "b5",
     category: "web",
     title: "Babylon 5 Tweets Lookup",
