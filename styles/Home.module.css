@@ -20,6 +20,7 @@
 
 .ul {
   width: 90%;
+  max-width: 1500px;
   display: flex;
   padding: 0px;
   margin: 0px;
