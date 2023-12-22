@@ -34,22 +34,22 @@ export const navItems = [
 export const mainMenu = [
   {
     id: "about",
-    img: "/aboutMe.jpg",
+    img: "/mainMenu/aboutMe.jpg",
     alt: "fool",
   },
   {
     id: "projects",
-    img: "/projects.jpg",
+    img: "/mainMenu/projects.jpg",
     alt: "hermit",
   },
   {
     id: "skills",
-    img: "/skills.jpg",
+    img: "/mainMenu/skills.jpg",
     alt: "magician",
   },
   {
     id: "contacts",
-    img: "/contacts.jpg",
+    img: "/mainMenu/contacts.jpg",
     alt: "sun",
   },
 ];
@@ -127,9 +127,20 @@ export const contacts = [
 
 export const projects = [
   {
+    id: "alexizq",
+    category: "web",
+    title: "Àlex Izquierdo Nofuentes",
+    desc: "The client wanted a personal page with a very simple design and ability to add, delete, update content. NextJS/Tailwind and Contentful as CMS. Decorative background elements in sections generated in Midjourney.",
+    rep: "https://github.com/rockysfairat/alexizquierdonofuentes",
+    url: "https://adorable-genie-d25230.netlify.app/",
+    img: "/projects/alexIzquierdo.png",
+    alt: "Àlex Izquierdo Nofuentes's personal website screenshot",
+  },
+  {
     id: "julius",
     category: "web",
     title: "Julius Rene Leo",
+    desc: "A personal page, created together with my fellow Claudiu Ionel. Used NextJS, Tailwind and EmailJS.",
     rep: "https://github.com/Claudiu-Ionel/rene-website",
     url: "https://juliusreneleo.com/",
     img: "/projects/julius.png",
@@ -139,6 +150,7 @@ export const projects = [
     id: "localgym",
     category: "web",
     title: "Local Gym",
+    desc: "Mockup for any small local business thingy :) NextJS + Tailwind + EmailJS = <3",
     rep: "https://github.com/rockysfairat/gym",
     url: "https://thelocalgym.vercel.app/",
     img: "/projects/localGym.png",

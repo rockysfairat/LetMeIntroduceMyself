@@ -44,7 +44,6 @@ export default function Home() {
                   alt={`A tarot card called the ${alt}`}
                   width={450}
                   height={700}
-                  className={styles.image}
                 />
               </Link>
             </li>

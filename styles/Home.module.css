@@ -26,13 +26,7 @@
   margin: 0px;
   list-style-type: none;
   justify-content: space-around;
-}
-
-.about,
-.projects,
-.skills,
-.contacts {
-  width: 25%;
+  perspective: 1000px;
 }
 
 .ul > li:hover {
@@ -41,12 +35,12 @@
 
 .ul > li:nth-child(2n + 1) {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .ul > li:nth-child(2n) {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .ul img {
