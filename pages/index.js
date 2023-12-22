@@ -20,7 +20,7 @@ export default function Home() {
         <meta property="og:description" content="Ålexander's personal page" />
         <meta
           property="og:image"
-          content="http://raw.githubusercontent.com/rockysfairat/LetMeIntroduceMyself/main/letmeintroducemyself/public/preview.jpg"
+          content="https://raw.githubusercontent.com/rockysfairat/LetMeIntroduceMyself/main/public/preview.jpg"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
