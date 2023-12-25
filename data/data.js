@@ -132,7 +132,7 @@ export const projects = [
     title: "Àlex Izquierdo Nofuentes",
     desc: "The client wanted a personal page with a very simple design and ability to add, delete, update content. NextJS/Tailwind and Contentful as CMS. Decorative background elements in sections generated in Midjourney.",
     rep: "https://github.com/rockysfairat/alexizquierdonofuentes",
-    url: "https://adorable-genie-d25230.netlify.app/",
+    url: "https://alexizquierdo.eu/",
     img: "/projects/alexIzquierdo.png",
     alt: "Àlex Izquierdo Nofuentes's personal website screenshot",
   },
