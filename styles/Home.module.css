@@ -54,5 +54,16 @@
   .ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    height: 80%;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .ul {
+    display: flex;
+  }
+  .header {
+    padding-left: 25%;
+    padding-right: 25%;
   }
 }
